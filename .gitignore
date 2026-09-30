@@ -1,0 +1,36 @@
+# Dependencies, builds and caches
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+.npm-cache/
+.cache/
+.vite/
+
+# Local environment configuration (keep the safe template)
+.env
+.env.*
+!.env.example
+
+# Generated QA and test output
+.qa/
+playwright-report/
+blob-report/
+test-results/
+coverage/
+playwright/.cache/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
